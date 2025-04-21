@@ -1,5 +1,13 @@
+import First from "./first";
+
 function App() {
-  return <h1>Welocme to basics react | Bappaditya</h1>;
+  return (
+    <>
+      <First />
+      <h1>This is from header 1</h1>
+      <p>This is from paragraph 1</p>
+    </>
+  );
 }
 
 export default App;
