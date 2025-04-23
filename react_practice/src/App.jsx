@@ -1,14 +1,28 @@
-import './App.css'
-
-function App() {
-
+import Header from "./Header";
+import {UserComponent,Profile, Category} from "./UserComponent";
+function App(){
   return (
-  <>
-  <h1>This is the first react practice code</h1>
-  <h2>Hello This is the second line </h2>
-
-  </>
+   <>
+    <h1>First Component</h1>
+    <Home/>
+    <UserComponent/>
+    <Profile/>
+    <Category/>
+   </>   
   )
 }
 
-export default App
+
+function Home(){
+  return (
+    <div>
+      <h2>Inside Home</h2>
+    </div>
+  )
+}
+
+
+
+
+
+export default App;
