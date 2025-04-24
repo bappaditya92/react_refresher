@@ -5,13 +5,15 @@ import CurlyBraces from "./component/CurlyBraces";
 import ClickEventFunctionCall from "./component/ClickEventFunctionCall";
 import State from "./component/State";
 import Counter from "./component/Counter";
+import Toggle from "./component/Toggle";
 function App() {
   return(
     <>
     {/* <CurlyBraces/> */}
     {/* <ClickEventFunctionCall/> */}
     {/* <State/> */}
-    <Counter/>
+    {/* <Counter/> */}
+    <Toggle/>
     </>
     
     
