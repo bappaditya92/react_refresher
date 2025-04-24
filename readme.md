@@ -16,7 +16,7 @@ Before you begin, make sure you have the following installed:
 ### Installation
 
 ```bash
-# Clone the repository
+ Clone the repository
 git clone https://github.com/bappaditya92/react_refresher.git
 
 # Navigate into the folder
