@@ -1,14 +1,16 @@
+import { useState } from "react";
+import Counter from "./Counter";
 function State(){
-    let fruit = "Banana";
-    const handleFruit = ()=>{
-        fruit = "mango";
-        console.log(fruit);
-        
+
+    const[fruit,setFruit] = useState("Mango");
+    const handleFruit =()=>{
+        setFruit("Banana");
     }
     return(
         <div>
             <h1>{fruit}</h1>
-            <button onClick={handleFruit}>click me</button>
+            <button onClick={handleFruit}>Click Here</button>
+
         </div>
     )
 }
