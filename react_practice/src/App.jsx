@@ -7,6 +7,7 @@ import State from "./component/State";
 import Counter from "./component/Counter";
 import Toggle from "./component/Toggle";
 import ElseIf from "./component/ElseIf";
+import Users from "./component/Users";
 function App() {
   return(
     <>
@@ -15,7 +16,8 @@ function App() {
     {/* <State/> */}
     {/* <Counter/> */}
     {/* <Toggle/> */}
-    <ElseIf/>
+    {/* <ElseIf/> */}
+    <Users name={"Bappaditya"} age= {30} address = {"Kolkata"}/>
     </>
     
     
